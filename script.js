@@ -42,6 +42,6 @@ let p = document.createElement("p");
 let tekst = document.createTextNode("Min tekst");
 p.appendChild(tekst);
 
-article2.appendChild(h1);
-article2.appendChild(img);
-article2.appendChild(p);
+articler.appendChild(h1);
+articler.appendChild(img);
+articler.appendChild(p);
