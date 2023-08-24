@@ -1,7 +1,6 @@
 const titel = document.querySelector("#titel");
 titel.textContent = "Ny titel";
 titel.innerHTML = "<h1>Ny titel</h1>";
-
 console.log(titel);
 
 const undertitel = document.querySelector("#undertitel");
@@ -23,3 +22,11 @@ const footer = document.querySelector("#footer");
 footer.textContent = "This is a fancy footer";
 footer.innerHTML = "<p>This is a fancy footer</p>";
 console.log(footer);
+
+const pic = document.querySelector("#img1");
+pic.src = "https://picsum.photos/278?grayscale";
+pic.alt = "dette er en alt tekst";
+
+const pic2 = document.querySelector("#img2");
+pic2.src = "https://picsum.photos/278/?blur=2";
+pic2.alt = "dette er en alt tekst";
