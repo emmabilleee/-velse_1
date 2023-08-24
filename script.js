@@ -30,3 +30,18 @@ pic.alt = "dette er en alt tekst";
 const pic2 = document.querySelector("#img2");
 pic2.src = "https://picsum.photos/278/?blur=2";
 pic2.alt = "dette er en alt tekst";
+
+let h1 = document.createElement("h1");
+let overskrift = document.createTextNode("Min overskrift til info");
+h1.appendChild(overskrift);
+
+let img = document.createElement("img");
+img.src = "https://picsum.photos/278?grayscale";
+
+let p = document.createElement("p");
+let tekst = document.createTextNode("Min tekst");
+p.appendChild(tekst);
+
+article2.appendChild(h1);
+article2.appendChild(img);
+article2.appendChild(p);
